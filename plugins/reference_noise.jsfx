@@ -203,7 +203,7 @@ out_pin:Right
     // Generic Modern
     preset == 3 ?
     (
-      filter1.eqHS(srate,   750, 0.3, -8);
+      filter1.eqHS(srate,   750, 0.4, -8);
       filter2.eqHP(srate,    70, 0.5);
       filter3.eqLP(srate, 16000, 0.2);
       filter4.eqDM();
