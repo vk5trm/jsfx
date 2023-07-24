@@ -192,7 +192,7 @@ out_pin:Right
   
     (
       filter1.eqHS(srate,   750, 0.4, -8);
-      filter2.eqHP(srate,    10, 0.75);
+      filter2.eqHP(srate,    10, 0.8);
       filter3.eqLP(srate, 16000, 0.2);
       filter4.eqDM();
       filter5.eqDM();
